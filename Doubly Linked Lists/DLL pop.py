@@ -11,16 +11,17 @@ class DoublyLinkedList:
         self.tail = new_node
         self.length = 1
 
+    #Updated the readability of the code
     def pop(self):
         if self.length == 0:
             return None
-        
         temp = self.tail
-        self.tail = self.tail.prev
-        self.tail.next = None
-        temp.prev = None
-        self.length -= 1
-
-        if self.length == 0:
+        if self.length == 1:
             self.head = None
             self.tail = None
+        else:
+            self.tail = self.tail.prev
+            self.tail.next = None
+            temp.prev = None
+        self.length -= 1
+        return temp
