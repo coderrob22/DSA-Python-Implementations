@@ -22,3 +22,16 @@
 # Parent nodes, a child node can be the parent of other children nodes IF there are nodes below it.
 # Child nodes, children only have one parent
 # Leaf node, these nodes don't have children nodes
+
+# ********************** BIG O ****************************
+
+# Binary Search Tree aka Divide and Conquer = O(log n) best case
+#  Worst case is O(n)
+
+# Big O - BST: lookup(), insert(), remove() == 0(log n)
+
+#  ********************** COMPARE LINKED LIST/List to BST (w/o index) ****************************
+
+# Insert() -- You should use LL for this by value
+# Lookup() -- BST is better by value
+# Remove() -- BST is better again by value
