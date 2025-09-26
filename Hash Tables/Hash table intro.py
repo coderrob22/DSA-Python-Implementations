@@ -5,3 +5,10 @@
 
 # Separate chaining: is the idea of dealing with collisions or (2 dictionary entries at the same hash address)
 #  A way to address collisions in hash tables, and not have several key/value pairs at the same address is to use 'Linear probing'.... which is a type of Open Addressing, where if the hash address already has a slot the is occupied, you move to the next spot to check if its occupied, and so forth...until you find one.
+
+#  *********************** BIG O ****************************
+
+# Big O of the hash method: O(1)
+# Appending to the list: O(1)
+# Get method: O(1)
+# Hash tables = O(1) [whether to look up or get a value by key]
