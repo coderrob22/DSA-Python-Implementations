@@ -10,5 +10,5 @@
 
 # Big O of the hash method: O(1)
 # Appending to the list: O(1)
-# Get method: O(1)
+# Get method: O(1) for key lookup BUT lookup by value is O(n)
 # Hash tables = O(1) [whether to look up or get a value by key]
